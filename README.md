@@ -1,3 +1,3 @@
 # CCCi
 
-Calvary Crystal Church International Website
+Calvary Crystal Church International
