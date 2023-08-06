@@ -14,9 +14,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::view('/', 'welcome');
+Route::view('/about', 'front.about')->name('about');
+Route::view('/sermons', 'front.sermons')->name('sermons');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
